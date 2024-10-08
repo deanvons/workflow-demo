@@ -1,6 +1,6 @@
 - [x] add linting (eslint)
 - [ ] add prettier
-- [ ] add linting to commit hooks
+- [x] add linting to commit hooks
 - [ ] add unit test
 - [ ] add unit tests to commit hook
 - [ ] add E2E tests
