@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint *.js",
     "lint-fix": "eslint *.js --fix",
+    "format": "prettier -w *.html",
     "prepare": "husky install"
   },
   "author": "",
@@ -15,11 +16,15 @@
     "eslint": "^8.57.1",
     "globals": "^15.10.0",
     "husky": "^9.1.6",
-    "lint-staged": "^15.2.10"
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3"
   },
   "lint-staged": {
-	  "*.js": [
-	    "eslint"
-	  ]
-	}
+    "*.js": [
+      "eslint"
+    ],
+    "*.html":[
+      "prettier --write"
+    ]
+  }
 }
