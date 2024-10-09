@@ -21,9 +21,13 @@
   },
   "lint-staged": {
     "*.js": [
-      "eslint"
+      "eslint",
+      "prettier --write"
     ],
     "*.html":[
+      "prettier --write"
+    ],
+    "*.css":[
       "prettier --write"
     ]
   }
