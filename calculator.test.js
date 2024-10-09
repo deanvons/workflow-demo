@@ -6,6 +6,6 @@ test("it adds 1 and 1 and returns 2", () => {
   const param2 = 1;
   const expected = 2;
 
-  // act
-  expect(add(param1, param2)).toEqual(expected); // assert
+  // act and assert
+  expect(add(param1, param2)).toEqual(expected);
 });
