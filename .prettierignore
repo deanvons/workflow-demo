@@ -1,2 +1,3 @@
-# Ignore specific test files
+# Ignore specific folders
 cypress/
+node_modules/
